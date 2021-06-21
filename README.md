@@ -91,7 +91,7 @@ Once you’ve done this and checked that your visual studio code runs, let’s s
 
 ```$ git add .
 $ git status
-On branch master
+On branch main
 
     No commits yet
 
