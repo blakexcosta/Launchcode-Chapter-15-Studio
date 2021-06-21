@@ -29,8 +29,8 @@ First, find a new friend to share the activity. Students
 
 You and your partner will alternate tasks, so designate one of you as **Pilot** and the other as **Control**. Even when it is not your turn to complete a task, read and observe what your partner is doing to complete theirs. The steps here mimic how a real-world collaborative Git workflow can be used within a project.
 
-## **Warning**:
-As you go through these steps, you’ll be working with branches. It’s very likely you will make changes to the code only to realize that you did so in the wrong branch. When this happens (and it happens to all of us) you can use  `git  stash`  to cleanly move your changes to another branch. Read about how to do so in our  [Git Stash](https://education.launchcode.org/intro-to-programming-csharp/appendices/git/stash.html#git-stash)  tutorial.
+***Warning***:
+*As you go through these steps, you’ll be working with branches. It’s very likely you will make changes to the code only to realize that you did so in the wrong branch. When this happens (and it happens to all of us) you can use  `git  stash`  to cleanly move your changes to another branch. Read about how to do so in our  [Git Stash](https://education.launchcode.org/intro-to-programming-csharp/appendices/git/stash.html#git-stash)  tutorial.*
 
 
 ## 15.7.3.1. Step 1: Create a New Repository
@@ -189,9 +189,8 @@ In your terminal, navigate to your development folder and clone down the repo. T
 
 Now you can respond to Control! Open the  `communication-log.sln`  file in your editor and add your response to mission control. Be creative, the communication can go anywhere! Just don’t ask your partner what you should write. After you finish, commit your change.
 
-Note
-
-When you open the project folder, you might not be in the same directory as the solution. You want to open the solution or  `.sln`  file. A quick way to do that from the terminal is to  `cd`  into the folder that is holding the solution and then type  `open  .sln`.
+**Note**
+*When you open the project folder, you might not be in the same directory as the solution. You want to open the solution or  `.sln`  file. A quick way to do that from the terminal is to  `cd`  into the folder that is holding the solution and then type  `open  .sln`.*
 ```
 $ git status
 On branch main
@@ -221,9 +220,8 @@ Add a collaborator to your repo in GitHub[](https://education.launchcode.org/int
 
 **Pilot**: You should receive an email invitation to join this repository. View and accept the invitation.
 
-Note
-
-If you don’t see an email (it may take a few minutes to arrive in your inbox), check your Spam folder. If you still don’t have an email, visit the repository page for the repo that Control created (ask them for the link), and you’ll see a notification at the top of the page.
+**Note**
+*If you don’t see an email (it may take a few minutes to arrive in your inbox), check your Spam folder. If you still don’t have an email, visit the repository page for the repo that Control created (ask them for the link), and you’ll see a notification at the top of the page.*
 
 [![The email invite to join a GitHub repository](https://education.launchcode.org/intro-to-programming-csharp/_images/repo-invite.png)](https://education.launchcode.org/intro-to-programming-csharp/_images/repo-invite.png)
 
@@ -289,7 +287,7 @@ This command creates a new branch named  `open-mic`, and switches your local rep
 
 Update the  [background color of the console](https://docs.microsoft.com/en-us/dotnet/api/system.console.backgroundcolor?view=net-5.0), and update the  `Hello  World!`  statement to something more exciting.:
 
-1Console.BackgroundColor = ConsoleColor.Your-Choice-Here
+    Console.BackgroundColor = ConsoleColor.Your-Choice-Here
 
 Now stage and commit these changes.
 ```
@@ -297,13 +295,12 @@ $ git add .
 $ git commit -m 'Changed background color'
 $ git push origin open-mic
 ```
-Note that the last command is a bit different than what we’ve used before (`git  push  origin  main`). The final piece of this command is the name of the branch that we want to push to GitHub.
+Note that the last command is a bit different than what we’ve used before (`git  push  origin  open-mic`). The final piece of this command is the name of the branch that we want to push to GitHub.
 
 You and your partner should both now see a second branch present on the GitHub project page. To view branches on GitHub, select  _Branches_  from the navigation section just below the repository title.
 
 ![../../_images/two-branches.png](https://education.launchcode.org/intro-to-programming-csharp/_images/two-branches.png)
 
-Branches Button in GitHub[](https://education.launchcode.org/intro-to-programming-csharp/chapters/git/studio.html#id9 "Permalink to this image")
 
 In your terminal, you can type this command to see a list of the available branches:
 ```
@@ -313,9 +310,8 @@ main
 ```
 Note that creating and being able to see a branch in your local repository via this command does NOT mean that the branch is on GitHub. You’ll need to push the branch for it to appear on GitHub.
 
-Note
-
-The * to the left of  `open-mic`  indicates that this is the active branch.
+**Note**
+*The * to the left of  `open-mic`  indicates that this is the active branch.*
 
 Great! Now let’s show the other player your work in GitHub and ask them to merge it in to the main branch.
 
@@ -517,8 +513,6 @@ Let’s turn the tables on the steps we just carried out, so Pilot can practice 
 4.  **Control**: Pull in the changes that Pilot pushed, including the resolved merge conflicts.
 
 Merge conflicts are a part of the process of team development. Resolve them carefully in order to avoid bugs in your code.
-
-
 
 
 
