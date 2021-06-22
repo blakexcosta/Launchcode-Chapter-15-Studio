@@ -107,10 +107,10 @@ On branch main
    new file:  communication-log/communication-log/Program.cs
    new file:  communication-log/communication-log/communication-log.csproj
 ```
+`git add .` will add all the files in your current local folder to the *staging area*, this *staging area* basically tells git "Hey git, I want to add these files to be committed".
 
 
-
-4.  The output tells us that the files are staged. Now let’s  `commit`. After that, we can see a record of our progress by using  `git  log`.
+4.  Now, The output tells us that the files are staged. Now let’s  `commit`. After that, we can see a record of our progress by using  `git  log`.
     
   
 ```
@@ -132,7 +132,7 @@ On branch main
        Started communication log.
  ```
 
-Great! We’ve got our project going locally, but we’re going to need to make it accessible for  **Pilot**  also. Let’s push this project up to GitHub.
+Great! We’ve got our project going *locally*, meaning it's only found on *Control's* local computer. Next, we’re going to need to make it accessible for  **Pilot**  also. In order to do this, we need to `push` this project up to GitHub.
 
 ### 15.7.3.2. Step 2: Share Your Repository On GitHub[](https://education.launchcode.org/intro-to-programming-csharp/chapters/git/studio.html#step-2-share-your-repository-on-github "Permalink to this headline")
 
