@@ -55,7 +55,7 @@ You can continue to use your terminal, or you can use the terminal that is part 
 
 If you can read your terminal window just fine and you haven’t added anything, then ignore this tip.
 
-Now, add a `.gitignore` file with `touch .gitignore`, containing the following information:
+Now, navigate back to your terminal, and inside your new git repository add a `.gitignore` file with `touch .gitignore`, and edit it so that it contains the following information:
 
     communication-log/communication-log/bin/*
     communication-log/communication-log/obj/*
@@ -63,7 +63,7 @@ Now, add a `.gitignore` file with `touch .gitignore`, containing the following i
     communication-log/Backup/*
     communication-log/UpgradeLog.htm
 
-What this `.gitignore` files does, is it tells git what files and folders we want it to well... ignore (surprise). Some of these folders are really not needed for anything but for our local machines, and it can make the remote repository look very bloated. Do not stress too much on this.
+What this `.gitignore` files does, is it tells git what files and folders we want it to well... ignore (surprise). Some of these folders are really not needed for anything but for our local machines, and it can make the remote repository look very bloated. However, If you get stuck, keep moving on and do not stress too much on this for now.
 
 Once you’ve done this and checked that your visual studio code runs, let’s stage and commit these files
 
