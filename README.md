@@ -89,7 +89,11 @@ Once you’ve done this and checked that your visual studio code runs, let’s s
     
 2.  This output shows us that we have four new files that have not been staged yet. We want to add them, So let’s  `add`  them, then check the  `status`  again.
 
-```$ git add .
+```
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+
 $ git status
 On branch main
 
