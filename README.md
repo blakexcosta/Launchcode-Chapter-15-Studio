@@ -41,7 +41,7 @@ You and your partner will alternate tasks, so designate one of you as **Pilot** 
     $ cd communication-log
     $ git init
 
-This will initialize the repository, next navigate to visual studio and create a new project with the following information:
+This will initialize the repository, next navigate to visual studio and create a new project inside the folder you just created with the following information:
 
 [Project Setup](https://drive.google.com/file/d/1Gj7Eh4pWbf-2jabe7BhvHd4o3dS0xnLt/view?usp=sharing)
 
