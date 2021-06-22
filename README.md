@@ -107,7 +107,7 @@ On branch main
    new file:  communication-log/communication-log/Program.cs
    new file:  communication-log/communication-log/communication-log.csproj
 ```
-`git add .` will add all the files in your current local folder to the *staging area*, this *staging area* basically tells git "Hey git, I want to add these files to be committed".
+`git add .` will add all the files in your current local folder to the *staging area*, this *staging area* basically tells git "Hey git, I want these files to be committed".
 
 
 4.  Now, The output tells us that the files are staged. Now let’s  `commit`. After that, we can see a record of our progress by using  `git  log`.
