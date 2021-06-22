@@ -65,7 +65,7 @@ Now, navigate back to your terminal, and inside your new git repository add a `.
 
 What this `.gitignore` files does, is it tells git what files and folders we want it to well... ignore (surprise). Some of these folders are really not needed for anything but for our local machines, and it can make the remote repository look very bloated. However, If you get stuck, keep moving on and do not stress too much on this for now.
 
-Once you’ve done this and checked that your visual studio code runs, let’s stage and commit these files
+Once you’ve done this. Add a line of code in you visual studio project talking to the pilot. It can be something as simple as `Console.WriteLine("Hello pilot!");	`. Run it, and check that your visual studio code runs. Once you're good to go here, let’s stage and commit these files!
 
 
 1.  First, check the  status with `git status`.  You will likely see something akin to this:
